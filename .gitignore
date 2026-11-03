@@ -2,7 +2,6 @@
 __pycache__/
 *.py[codz]
 *$py.class
-artifacts/
 
 # C extensions
 *.so
@@ -211,6 +210,9 @@ tempCodeRunnerFile.py
 
 # PyPI configuration file
 .pypirc
+
+# Runtime databases and generated engineering-workflow artifacts
+artifacts/
 
 # Marimo
 marimo/_static/
